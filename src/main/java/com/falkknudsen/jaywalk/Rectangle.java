@@ -9,7 +9,7 @@ import java.io.Serializable;
 /** Rectangle structure.<br>
  Origin/min fields/functions are guaranteed to be <em>smaller</em>
  or equal to end/max fields/functions. */
-public class Rectangle implements Serializable, IDrawable {
+public class Rectangle implements IDrawable, Serializable {
     private float originX = 0f,
             originY = 0f,
             endX    = 0f,

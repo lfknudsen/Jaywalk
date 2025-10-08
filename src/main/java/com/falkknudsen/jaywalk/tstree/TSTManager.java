@@ -11,7 +11,7 @@ public class TSTManager implements IAddressContainer {
 
     }
 
-    public void saveSeparateTSTs(TernarySearchTree tst) {
+    public void separateTSTs(TernarySearchTree tst) {
 
     }
 

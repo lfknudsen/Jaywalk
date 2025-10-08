@@ -4,10 +4,11 @@ import com.falkknudsen.jaywalk.contracts.IDrawable;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
-public class Relation implements IDrawable {
+public class Relation implements IDrawable, Serializable {
     public Way[] ways;
     public Relation[] relations;
 

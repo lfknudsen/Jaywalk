@@ -1,8 +1,9 @@
 package com.falkknudsen.jaywalk;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public record Point(float x, float y) {
+public record Point(float x, float y) implements Serializable {
     public static Point of(Node node) {
         if (node == null) return null;
         return new Point(projectLon(node.lon()), projectLat(node.lat()));

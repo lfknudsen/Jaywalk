@@ -217,8 +217,8 @@ public class OsmundaParser extends AbstractBufferedParser {
                 + (System.currentTimeMillis() - before) + " ms.");
 
         long beforeSaveTST = System.currentTimeMillis();
-        log("Saving mixed TST.");
-        map.tstManager.saveSeparateTSTs(addresses);
+        log("Saving mixed TST as separate files.");
+        map.tstManager.separateTSTs(addresses);
         log("Saved TST in " + (System.currentTimeMillis() - beforeSaveTST) + " ms.");
 
         fillRTrees(map, ways, relations);
