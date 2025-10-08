@@ -1,4 +1,4 @@
-package jaywalk;
+package com.falkknudsen.osmunda;
 
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;

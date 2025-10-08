@@ -1,4 +1,4 @@
-package jaywalk;
+package com.falkknudsen.jaywalk;
 
 public class Launcher {
     public static void main(String[] args) {
