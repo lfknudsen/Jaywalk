@@ -1,4 +1,4 @@
-﻿package com.falkknudsen.jaywalk;
+﻿package com.falkknudsen.jaywalk.util;
 
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;

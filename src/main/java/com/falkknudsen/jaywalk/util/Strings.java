@@ -1,4 +1,4 @@
-package com.falkknudsen.jaywalk;
+package com.falkknudsen.jaywalk.util;
 
 import java.io.Serializable;
 import java.util.Comparator;

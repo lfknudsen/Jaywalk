@@ -1,6 +1,6 @@
 package com.falkknudsen.jaywalk;
 
-import com.falkknudsen.jaywalk.Maths;
+import com.falkknudsen.jaywalk.util.Maths;
 
 import java.io.Serializable;
 import java.util.Objects;

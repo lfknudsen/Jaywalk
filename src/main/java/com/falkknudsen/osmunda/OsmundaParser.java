@@ -12,8 +12,8 @@ import javax.xml.stream.XMLStreamReader;
 import java.io.IOException;
 import java.util.*;
 
-import static com.falkknudsen.jaywalk.Log.VERBOSE;
-import static com.falkknudsen.jaywalk.Log.log;
+import static com.falkknudsen.jaywalk.util.Log.VERBOSE;
+import static com.falkknudsen.jaywalk.util.Log.log;
 
 /** OSM parser. Can be reused. */
 public class OsmundaParser extends AbstractBufferedParser {

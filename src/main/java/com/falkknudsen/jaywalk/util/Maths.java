@@ -1,4 +1,7 @@
-package com.falkknudsen.jaywalk;
+package com.falkknudsen.jaywalk.util;
+
+import com.falkknudsen.jaywalk.Node;
+import com.falkknudsen.jaywalk.Point;
 
 /** Various mathematical functions, especially for calculating distances on the Earth.
  Functions exist for kilometres and metres, and for doubles and floats.<br>

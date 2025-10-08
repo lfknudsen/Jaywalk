@@ -1,5 +1,6 @@
 package com.falkknudsen.jaywalk;
 
+import com.falkknudsen.jaywalk.contracts.IDrawable;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 

@@ -1,4 +1,4 @@
-package com.falkknudsen.jaywalk;
+package com.falkknudsen.jaywalk.contracts;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;

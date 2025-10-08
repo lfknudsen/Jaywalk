@@ -10,4 +10,10 @@ module com.falkknudsen.jaywalk {
 
     opens com.falkknudsen.jaywalk to javafx.fxml;
     exports com.falkknudsen.jaywalk;
+    exports com.falkknudsen.jaywalk.contracts;
+    opens com.falkknudsen.jaywalk.contracts to javafx.fxml;
+    exports com.falkknudsen.jaywalk.util;
+    opens com.falkknudsen.jaywalk.util to javafx.fxml;
+    exports com.falkknudsen.jaywalk.structs;
+    opens com.falkknudsen.jaywalk.structs to javafx.fxml;
 }

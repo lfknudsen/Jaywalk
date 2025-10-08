@@ -1,7 +1,7 @@
 package com.falkknudsen.jaywalk.rtree;
 
-import com.falkknudsen.jaywalk.IDrawableContainer;
-import com.falkknudsen.jaywalk.IDrawable;
+import com.falkknudsen.jaywalk.contracts.IDrawableContainer;
+import com.falkknudsen.jaywalk.contracts.IDrawable;
 
 public class RTreeManager implements IDrawableContainer {
     @Override

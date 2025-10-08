@@ -1,6 +1,6 @@
 package com.falkknudsen.jaywalk.tstree;
 
-import com.falkknudsen.jaywalk.IAddressContainer;
+import com.falkknudsen.jaywalk.contracts.IAddressContainer;
 
 import java.util.Map;
 

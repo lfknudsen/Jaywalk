@@ -1,6 +1,8 @@
 package com.falkknudsen.osmunda;
 
 import com.falkknudsen.jaywalk.*;
+import com.falkknudsen.jaywalk.contracts.IDrawable;
+import com.falkknudsen.jaywalk.contracts.IDrawableContainer;
 import com.falkknudsen.jaywalk.rtree.RTreeManager;
 import com.falkknudsen.jaywalk.tstree.TSTManager;
 

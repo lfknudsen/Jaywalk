@@ -6,7 +6,7 @@ import javax.xml.stream.XMLStreamReader;
 import java.io.BufferedInputStream;
 import java.io.InputStream;
 
-import static com.falkknudsen.jaywalk.Log.log;
+import static com.falkknudsen.jaywalk.util.Log.log;
 
 /** Classes that would override {@link AbstractParser#parse(XMLStreamReader)} can extend
  this class instead to automatically use a {@link BufferedInputStream} around the stream

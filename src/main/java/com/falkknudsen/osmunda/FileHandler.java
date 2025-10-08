@@ -1,6 +1,6 @@
 package com.falkknudsen.osmunda;
 
-import com.falkknudsen.jaywalk.Tuple;
+import com.falkknudsen.jaywalk.structs.Tuple;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import org.apache.commons.compress.archivers.*;

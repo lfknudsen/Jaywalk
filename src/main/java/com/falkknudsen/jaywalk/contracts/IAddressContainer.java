@@ -1,4 +1,4 @@
-package com.falkknudsen.jaywalk;
+package com.falkknudsen.jaywalk.contracts;
 
 import java.util.Map;
 
